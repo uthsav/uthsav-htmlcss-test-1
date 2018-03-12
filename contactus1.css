@@ -1,37 +1,42 @@
-   background-image:url(download1.jpg);
+body{
+	background:url(maxresdefault.jpg);
+	background-size:100% 500px;
+	padding-top:100px  
 }
-.center {
-    margin: auto;
-    width: 10%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
-input[type=text], select {
-    width: 10%;
-    padding: 5px 5px;
-    margin: 5px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 10%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-input[type=submit]:hover {
-    background-color: #45a049;
+#nav{
+	padding-top: 30px;
+	padding-left:60px;
+	font-size: 30px;
+	background:pink;
+	width: 450px;
+	height: 500px;
+	margin:auto;
+	border-radius: 10px;
+	opacity: .8;
 }
 
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+#nav{
+	font-size:20px;
+	background:green;
+width:600px;
+height: 600px;
+margin: auto;
+border-radius: 20px;
+opacity:8px;
+}
+#nav input{
+	margin-top:30px;
+	width:200px;
+	height:40px;
+	font-size: 25px;
+	border-radius:5px;
+
+}
+#nav input[type="submit"]{
+	margin: top:10px;
+	width: 200px;
+	border-radius:50px;
+	margin-left: 100px;
+	background:blue
+	font-weight:bold;
 }
